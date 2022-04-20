@@ -5,6 +5,3 @@ class new
   end
   
 end
-
-
-  
