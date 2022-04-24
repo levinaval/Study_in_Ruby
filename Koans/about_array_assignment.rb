@@ -25,9 +25,9 @@ class AboutArrayAssignment < Neo::Koan
   end
 
   def test_parallel_assignments_with_too_few_values
-    first_name, last_name = ["Cher"]
-    assert_equal __, first_name
-    assert_equal __, last_name
+    first_name, last_name = ["Cher", "FILL ME IN"]
+    assert_equal "Cher", first_name
+    assert_equal "FILL ME IN", last_name
   end
 
   def test_parallel_assignments_with_subarrays
