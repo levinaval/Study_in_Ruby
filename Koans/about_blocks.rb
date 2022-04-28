@@ -71,7 +71,7 @@ class AboutBlocks < Neo::Koan
     assert_equal 11, add_one.call(10)
 
     # Alternative calling syntax
-    assert_equal __, add_one[10]
+    assert_equal 11, add_one[10]
   end
 
   def test_stand_alone_blocks_can_be_passed_to_methods_expecting_blocks
