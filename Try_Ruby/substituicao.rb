@@ -4,9 +4,7 @@ poema = ["Minha manga voou da minha mão
   E minha manga se foi para a lua.
   Mas quando eu vejo isso na televisão,
   Colocando nossa bandeira no cometa Halley,
-  Mais ainda eu quero come-la."]
-
-torrada = ["Minha torrada voou da minha mão
+  Mais ainda eu quero come-la."], ["Minha torrada voou da minha mão
   E minha torrada se foi para a lua.
   Mas quando eu vejo isso na televisão,
   Colocando nossa bandeira no cometa Halley,
@@ -14,9 +12,8 @@ torrada = ["Minha torrada voou da minha mão
 
 def poema
 
-  manga   = poema 
-  torrada = poema 
+  puts poema.gsub("torrada", "manga")  
   
 end
 
-puts poema.gsub
+poema
