@@ -1,6 +1,6 @@
 def loteria
 
-  loteria = [5, 3, 4, 2, 1]
+  loteria = [54, 23, 14, 1, 3, 10]
   
 end
 
