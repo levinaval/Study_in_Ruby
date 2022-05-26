@@ -14,7 +14,7 @@ class AboutClassMethods < Neo::Koan
   end
 
   def test_classes_are_objects_too
-    assert_equal true, Dog.is_a?(Object)
+    assert_equal __, Dog.is_a?(Object)
   end
 
   def test_objects_have_methods
@@ -23,15 +23,7 @@ class AboutClassMethods < Neo::Koan
   end
 
   def test_classes_have_methods
-    assert Dog.methods.size > _n_The Master says:
-    You have not yet reached enlightenment.
-    I sense frustration. Do not be afraid to ask for help.
-  
-  The answers you seek...
-    Failed assertion.
-  
-  Please meditate on the following code:
-    about_class_methods.rb:22:in `test_objects_have_methods'
+    assert Dog.methods.size > _n_
   end
 
   def test_you_can_define_methods_on_individual_objects
